@@ -59,13 +59,9 @@ Java.perform(function (){
 
             var certsList = Java.use('java.util.ArrayList').$new();
             var i;
-            console.log("-------------------")
-            for (i = 0; i < certs.length; i++) { 
-                console.log("CETIFICAAT NUMMER #############################" + i)
-                //console.log(certs[i]);               
+            for (i = 0; i < certs.length; i++) {               
                 certsList.add(certs[i]);
             }
-            console.log("-------------------")
             return certsList;
         }
 
