@@ -7,7 +7,7 @@
 */
 Java.perform(function (){
     console.log("");
-    console.log("-- Bypass certificate pinning for Android's default libary and OKHttp --");
+    console.log("-- Bypass certificate pinning for Android's default libary and OKHttp libary --");
 
 	//Bypass the OKHttp Library
     try {

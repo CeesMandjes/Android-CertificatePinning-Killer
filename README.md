@@ -11,5 +11,5 @@ Frida works on both nonrooted and rooted Android device. This script is tested o
 Usage: frida -U -l bypassCertificatePinningAndroid.js -f org.package.name --no-pause
 
 [1] = https://frida.re/ <br/>
-[2] = https://gitlab.local.northwave.nl/cmandjes/tlsconnector <br/>
-[3] = https://gitlab.local.northwave.nl/cmandjes/tlsconnectorserver <br/>
+[2] = https://github.com/CeesMandjes/TLSConnector <br/>
+[3] = https://github.com/CeesMandjes/TLSConnectorServer <br/>
